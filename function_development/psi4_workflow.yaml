@@ -1,0 +1,6 @@
+- plugin: 'psi4-step'
+  job_type: 'energy'
+  molecule:
+    smiles: 'CCO'  # ethanol
+  method: 'b3lyp'
+  basis: '6-31g'
