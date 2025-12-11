@@ -568,7 +568,7 @@ def run_molecule_redesign(apikey: str, pdf_path: str):
 # RUN MODEL 
 
 pdfpath = "AzobenzeneLightReversibilityPaper.pdf"
-API_KEY="AIzaSyDlP0LdGecdeNa_t972EN-7xlNRWPPnZaA"
+API_KEY=""
 
 results = run_molecule_redesign(API_KEY, pdfpath)
 print("\n" + "="*60)
